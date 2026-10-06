@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>House Of Sharma Ji — हाउस ऑफ शर्मा | Indian Restaurant, Jabalpur</title>
+<meta name="description" content="House Of Sharma Ji — a premium family-friendly Indian restaurant in Jabalpur. Momos, tandoor, curries, cold coffee & warm ambience. Rated 5.0 by 16 guests.">
+<meta property="og:title" content="House Of Sharma Ji — हाउस ऑफ शर्मा | Indian Restaurant, Jabalpur">
+<meta property="og:description" content="House Of Sharma Ji — a premium family-friendly Indian restaurant in Jabalpur. Momos, tandoor, curries, cold coffee & warm ambience.">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#0b0908">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=Inter:wght@300;400;500;600&family=Tiro+Devanagari+Hindi:ital@0;1&display=swap" rel="stylesheet">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%230b0908'/><text y='72' x='50' text-anchor='middle' font-size='62' font-family='Georgia' fill='%23d9a441'>S</text></svg>">
+<link rel="stylesheet" href="/src/app.css">
+</head>
+<body class="lock">
+
+<!-- ============ PRELOADER ============ -->
+<div id="pre">
+  <div class="pre-emblem">
+    <img src="/intro-chai.jpg" alt="House of Sharma Ji Chai Cafe">
+  </div>
+  <div class="pre-mark" id="preMark"></div>
+  <div class="pre-hi">हाउस ऑफ शर्मा</div>
+  <div class="pre-bar"><i id="preBar"></i></div>
+  <div class="pre-num" id="preNum">00</div>
+</div>
+
+<!-- ============ CURSOR ============ -->
+<div class="cur-dot" id="curDot"></div>
+<div class="cur-ring" id="curRing"></div>
+
+<!-- ============ ANNOUNCEMENT ============ -->
+<div class="announce" id="announceBar">
+  <span data-i18n="announce">Open today till 11:00 PM &nbsp;·&nbsp; <b>Family friendly</b> · Kitty parties · Birthday celebrations &nbsp;·&nbsp; Call 78040 77713</span>
+</div>
+
+<!-- ============ HEADER ============ -->
+<header id="header">
+  <nav class="nav">
+    <a href="#hero" class="brand" data-mag>
+      <div class="brand-mark">S</div>
+      <div class="brand-txt">
+        <b>House Of Sharma Ji</b>
+        <small>हाउस ऑफ शर्मा</small>
+      </div>
+    </a>
+
+    <div class="nav-links">
+      <a href="#story" data-i18n="nav.story">Our Story</a>
+      <a href="#signature" data-i18n="nav.signature">Signature</a>
+      <a href="#menu" data-i18n="nav.menu">Menu</a>
+      <a href="#gallery" data-i18n="nav.gallery">Gallery</a>
+      <a href="#reviews" data-i18n="nav.reviews">Reviews</a>
+      <a href="#visit" data-i18n="nav.visit">Visit</a>
+    </div>
+
+    <div class="nav-right">
+      <div class="lang" id="lang">
+        <div class="lang-pill" id="langPill"></div>
+        <button data-lang="en" class="on">EN</button>
+        <button data-lang="hi">हिंदी</button>
+      </div>
+      <a href="#reserve" class="btn btn-gold btn-sm" data-mag>
+        <span data-i18n="cta.reserve">Reserve</span>
+      </a>
+      <button class="burger" id="burger" aria-label="Menu"><i></i></button>
+    </div>
+  </nav>
+</header>
+
+<!-- ============ MOBILE DRAWER ============ -->
+<div class="drawer" id="drawer">
+  <a href="#story" class="d-link" data-i18n="nav.story">Our Story</a>
+  <a href="#signature" class="d-link" data-i18n="nav.signature">Signature</a>
+  <a href="#menu" class="d-link" data-i18n="nav.menu">Menu</a>
+  <a href="#gallery" class="d-link" data-i18n="nav.gallery">Gallery</a>
+  <a href="#reviews" class="d-link" data-i18n="nav.reviews">Reviews</a>
+  <a href="#visit" class="d-link" data-i18n="nav.visit">Visit</a>
+  <div class="drawer-foot">
+    <a href="#reserve" class="btn btn-gold" data-i18n="cta.reserve">Reserve a Table</a>
+    <a href="#" class="btn btn-wa" id="drawerWa" data-i18n="cta.whatsapp">WhatsApp</a>
+  </div>
+</div>
+
+<main>
+<!-- ============ HERO ============ -->
+<section class="hero" id="hero">
+  <div class="hero-bg" id="heroBg">
+    <video class="hero-video" autoplay loop muted playsinline preload="auto">
+      <source src="/hero-bg.mp4" type="video/mp4">
+      <source src="https://v1.pinimg.com/videos/iht/720p/74/f5/e1/74f5e12d1094d9930d13a6ead47693be.mp4" type="video/mp4">
+    </video>
+    <div class="hero-bg-overlay"></div>
+  </div>
+  <div class="hero-grain"></div>
+
+  <div class="hero-top">
+    <div class="wrap">
+      <div class="hero-rating">
+        <span class="stars">★★★★★</span>
+        <b>5.0</b>
+        <small data-i18n="hero.reviews">16 reviews</small>
+      </div>
+    </div>
+  </div>
+
+  <div class="wrap">
+    <div class="hero-layout">
+      <div class="hero-main">
+        <div class="hero-hindi" data-i18n="hero.hindi">हाउस ऑफ शर्मा · जबलपुर</div>
+        <h1 class="hero-title">
+          <span class="ln"><span data-i18n="hero.t1">Where every</span></span>
+          <span class="ln"><span data-i18n="hero.t2">meal feels like</span></span>
+          <span class="ln"><span><em data-i18n="hero.t3">home.</em></span></span>
+        </h1>
+        <p class="hero-sub" data-i18n="hero.sub">
+          A warm, family-friendly Indian kitchen in the heart of Jabalpur — serving slow-cooked curries, tandoor-kissed breads, hand-folded momos and the cold coffee everyone keeps coming back for.
+        </p>
+        <div class="hero-cta">
+          <a href="#menu" class="btn btn-gold" data-mag><span data-i18n="cta.explore">Explore the Menu</span></a>
+          <a href="#reserve" class="btn btn-ghost" data-mag><span data-i18n="cta.reserve">Reserve a Table</span></a>
+        </div>
+      </div>
+
+      <div class="hero-feature" id="heroIntroCard">
+        <div class="hero-card-glow"></div>
+        <div class="hero-art-frame">
+          <img src="/intro-chai.jpg" alt="Chai cafe aesthetic illustration" class="hero-art-img" loading="eager">
+          <div class="hero-art-caption">
+            <span class="hero-art-badge">✦ House Of Sharma Ji</span>
+            <span class="hero-art-desc">Chai, Coffee & Warm Conversations</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-strip">
+      <div class="hero-stat"><b>5<i>.0</i></b><small data-i18n="stat.rating">Google Rating</small></div>
+      <div class="hero-stat"><b>16<i>+</i></b><small data-i18n="stat.reviews">Happy Reviews</small></div>
+      <div class="hero-stat"><b>₹200<i>–400</i></b><small data-i18n="stat.price">Per Person</small></div>
+      <div class="hero-stat"><b>11<i>PM</i></b><small data-i18n="stat.open">Open Till</small></div>
+    </div>
+  </div>
+
+  <div class="scroll-cue"><span data-i18n="scroll">Scroll</span><i></i></div>
+</section>
+
+<!-- ============ MARQUEE ============ -->
+<div class="marquee" aria-hidden="true">
+  <div class="mq-track" id="mqTrack"></div>
+</div>
+
+<!-- ============ STORY ============ -->
+<section class="sec-pad" id="story">
+  <div class="wrap">
+    <div class="story-grid">
+      <div class="story-media reveal">
+        <div class="story-badge"><span class="dot-live"></span><span data-i18n="story.open">Open Now</span></div>
+        <div class="m m1"></div>
+        <div class="m m2"></div>
+        <div class="m m3"></div>
+      </div>
+      <div class="story-copy">
+        <div class="eyebrow reveal" data-i18n="story.eyebrow">Our Story</div>
+        <h2 class="sec-title reveal">
+          <span class="mask-line"><span data-i18n="story.h1">A kitchen built on</span></span>
+          <span class="mask-line"><span><em data-i18n="story.h2">family recipes.</em></span></span>
+        </h2>
+        <p class="reveal" data-i18n="story.p1">
+          House Of Sharma Ji began with a simple belief — that the best food is the food you'd serve your own family. Every masala is ground in-house, every gravy is slow-simmered, and every guest walks in as a stranger and leaves as a regular.
+        </p>
+        <p class="reveal" data-i18n="story.p2">
+          Tucked near Labour Chowk in Yadav Colony, our dining room is built for <b>long conversations</b> — kitty parties, birthday celebrations, get-togethers and quiet weekday dinners alike. Warm lights, comfortable seating, and a menu that spans North Indian classics to Indo-Chinese favourites.
+        </p>
+
+        <div class="story-connect reveal">
+          <div class="story-connect-img" style="background-image:url('https://images.unsplash.com/photo-1596797038530-2c107229654b?auto=format&fit=crop&w=600&q=80')"></div>
+          <div class="story-connect-body">
+            <span class="story-connect-tag" data-i18n="story.connectTag">✦ The Sharma Ji Heritage</span>
+            <h5 data-i18n="story.connectTitle">Slow-simmered gravies & tandoor breads</h5>
+            <p data-i18n="story.connectDesc">Crafted fresh every morning in Yadav Colony for long, joyful family gatherings.</p>
+          </div>
+        </div>
+
+        <div class="pillars">
+          <div class="pillar reveal">
+            <h4 data-i18n="pillar1.t">Family First</h4>
+            <p data-i18n="pillar1.d">A genuinely family-friendly atmosphere with space for every generation.</p>
+          </div>
+          <div class="pillar reveal">
+            <h4 data-i18n="pillar2.t">Fresh Daily</h4>
+            <p data-i18n="pillar2.d">Prepped each morning. Nothing sits, nothing is reheated twice.</p>
+          </div>
+          <div class="pillar reveal">
+            <h4 data-i18n="pillar3.t">Warm Service</h4>
+            <p data-i18n="pillar3.d">Attentive, unhurried hospitality — the kind that remembers your order.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SIGNATURE ============ -->
+<section class="sig sec-pad" id="signature">
+  <div class="wrap">
+    <div class="sig-head">
+      <div>
+        <div class="eyebrow reveal" data-i18n="sig.eyebrow">Signature Plates</div>
+        <h2 class="sec-title reveal" style="margin-top:18px">
+          <span class="mask-line"><span data-i18n="sig.h1">The dishes people</span></span>
+          <span class="mask-line"><span><em data-i18n="sig.h2">come back for.</em></span></span>
+        </h2>
+      </div>
+      <p class="sec-lead reveal" style="max-width:36ch" data-i18n="sig.lead">
+        Hand-picked from our most-loved orders. Each one has a story — and a queue.
+      </p>
+    </div>
+  </div>
+
+  <div class="sig-viewport" id="sigViewport">
+    <div class="sig-track" id="sigTrack"></div>
+  </div>
+
+  <div class="wrap">
+    <div class="sig-progress"><i id="sigProg"></i></div>
+  </div>
+</section>
+
+<!-- ============ MENU ============ -->
+<section class="menu-sec" id="menu">
+  <div class="wrap">
+    <div class="menu-head">
+      <div>
+        <div class="eyebrow reveal" data-i18n="menu.eyebrow">The Full Menu</div>
+        <h2 class="sec-title reveal" style="margin-top:18px">
+          <span class="mask-line"><span data-i18n="menu.h1">Everything we</span></span>
+          <span class="mask-line"><span><em data-i18n="menu.h2">cook & pour.</em></span></span>
+        </h2>
+      </div>
+      <p class="sec-lead reveal" style="max-width:34ch" data-i18n="menu.lead">
+        Prices are indicative and may vary. Ask our team about today's specials.
+      </p>
+    </div>
+
+    <div class="menu-tabs" id="menuTabs"></div>
+    <div class="menu-grid" id="menuGrid"></div>
+
+    <div class="menu-note">
+      <span>🟢 <span data-i18n="menu.veg">Vegetarian</span></span>
+      <span>🔴 <span data-i18n="menu.nonveg">Non-Vegetarian</span></span>
+      <span>⭐ <span data-i18n="menu.best">Bestseller</span></span>
+      <span>💧 <span data-i18n="menu.water">RO purified water served</span></span>
+    </div>
+  </div>
+</section>
+
+<!-- ============ GALLERY ============ -->
+<section class="sec-pad" id="gallery">
+  <div class="wrap">
+    <div class="menu-head" style="margin-bottom:0">
+      <div>
+        <div class="eyebrow reveal" data-i18n="gal.eyebrow">The Vibe</div>
+        <h2 class="sec-title reveal" style="margin-top:18px">
+          <span class="mask-line"><span data-i18n="gal.h1">Warm lights,</span></span>
+          <span class="mask-line"><span><em data-i18n="gal.h2">warmer plates.</em></span></span>
+        </h2>
+      </div>
+      <p class="sec-lead reveal" style="max-width:32ch" data-i18n="gal.lead">
+        A glimpse of the room, the plates and the people who fill them.
+      </p>
+    </div>
+    <div class="gal-grid" id="galGrid"></div>
+  </div>
+</section>
+
+<!-- ============ REVIEWS ============ -->
+<section class="rev-sec sec-pad" id="reviews">
+  <div class="wrap">
+    <div class="eyebrow reveal" data-i18n="rev.eyebrow">Guest Reviews</div>
+    <h2 class="sec-title reveal" style="margin:18px 0 46px">
+      <span class="mask-line"><span data-i18n="rev.h1">16 reviews.</span></span>
+      <span class="mask-line"><span><em data-i18n="rev.h2">One perfect score.</em></span></span>
+    </h2>
+
+    <div class="rev-top">
+      <div class="rev-score">
+        <b>5.0</b>
+        <div class="meta">
+          <span class="stars">★★★★★</span>
+          <small data-i18n="rev.based">Based on 16 Google reviews</small>
+        </div>
+      </div>
+      <div class="rev-bars">
+        <div class="rev-bar"><span>5★</span><div class="track"><i data-w="100"></i></div><span>16</span></div>
+        <div class="rev-bar"><span>4★</span><div class="track"><i data-w="0"></i></div><span>0</span></div>
+        <div class="rev-bar"><span>3★</span><div class="track"><i data-w="0"></i></div><span>0</span></div>
+        <div class="rev-bar"><span>2★</span><div class="track"><i data-w="0"></i></div><span>0</span></div>
+        <div class="rev-bar"><span>1★</span><div class="track"><i data-w="0"></i></div><span>0</span></div>
+      </div>
+    </div>
+
+    <div class="rev-grid" id="revGrid"></div>
+  </div>
+</section>
+
+<!-- ============ RESERVE ============ -->
+<section class="res-sec sec-pad" id="reserve">
+  <div class="wrap">
+    <div class="res-grid">
+      <div>
+        <div class="eyebrow reveal" data-i18n="res.eyebrow">Reservations</div>
+        <h2 class="sec-title reveal" style="margin:18px 0 20px">
+          <span class="mask-line"><span data-i18n="res.h1">Save your</span></span>
+          <span class="mask-line"><span><em data-i18n="res.h2">seat at the table.</em></span></span>
+        </h2>
+        <p class="sec-lead reveal" data-i18n="res.lead">
+          Tell us when you're coming and how many. We'll confirm on WhatsApp within a few minutes during opening hours. For large groups and party bookings, call us directly.
+        </p>
+
+        <div class="res-info-list">
+          <div class="res-info reveal">
+            <div class="ic">📍</div>
+            <div>
+              <h5 data-i18n="res.addrT">Address</h5>
+              <p>Near MR-4 Rd, Labour Chowk, Yadav Colony,<br>Jabalpur, New Adaresh Colony, MP 482002</p>
+            </div>
+          </div>
+          <div class="res-info reveal">
+            <div class="ic">📞</div>
+            <div>
+              <h5 data-i18n="res.callT">Call / WhatsApp</h5>
+              <p><a href="tel:7804077713">78040 77713</a> &nbsp;·&nbsp; <a href="tel:8964932788">89649 32788</a></p>
+            </div>
+          </div>
+          <div class="res-info reveal">
+            <div class="ic">🕐</div>
+            <div>
+              <h5 data-i18n="res.hoursT">Opening Hours</h5>
+              <p data-i18n="res.hours">Open daily · Closes 11:00 PM</p>
+            </div>
+          </div>
+          <div class="res-info reveal" style="border-bottom:0">
+            <div class="ic">🎉</div>
+            <div>
+              <h5 data-i18n="res.occT">Occasions</h5>
+              <p data-i18n="res.occ">Kitty parties · Birthdays · Get-togethers · Family dinners</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="res-form reveal" id="resFormWrap">
+        <form id="resForm" novalidate>
+          <div class="f-row">
+            <div class="f-field">
+              <label data-i18n="f.name">Full Name <i>*</i></label>
+              <input type="text" name="name" autocomplete="name" data-i18n-ph="f.namePh" placeholder="e.g. Mukti Sharma">
+              <div class="f-err"></div>
+            </div>
+            <div class="f-field">
+              <label data-i18n="f.phone">Phone <i>*</i></label>
+              <input type="tel" name="phone" inputmode="numeric" autocomplete="tel" data-i18n-ph="f.phonePh" placeholder="10-digit number">
+              <div class="f-err"></div>
+            </div>
+          </div>
+
+          <div class="f-row">
+            <div class="f-field">
+              <label data-i18n="f.date">Date <i>*</i></label>
+              <input type="date" name="date">
+              <div class="f-err"></div>
+            </div>
+            <div class="f-field">
+              <label data-i18n="f.time">Time <i>*</i></label>
+              <input type="time" name="time">
+              <div class="f-err"></div>
+            </div>
+          </div>
+
+          <div class="f-row">
+            <div class="f-field">
+              <label data-i18n="f.guests">Guests <i>*</i></label>
+              <select name="guests">
+                <option value="" data-i18n="f.select">Select…</option>
+                <option>1</option><option>2</option><option>3</option><option>4</option>
+                <option>5</option><option>6</option><option>7</option><option>8</option>
+                <option value="9+" data-i18n="f.g9">9+ (group booking)</option>
+              </select>
+              <div class="f-err"></div>
+            </div>
+            <div class="f-field">
+              <label data-i18n="f.occasion">Occasion</label>
+              <select name="occasion">
+                <option value="Casual" data-i18n="f.o1">Casual dining</option>
+                <option value="Birthday" data-i18n="f.o2">Birthday</option>
+                <option value="Anniversary" data-i18n="f.o3">Anniversary</option>
+                <option value="Kitty Party" data-i18n="f.o4">Kitty party</option>
+                <option value="Get-together" data-i18n="f.o5">Get-together</option>
+                <option value="Business" data-i18n="f.o6">Business meal</option>
+              </select>
+              <div class="f-err"></div>
+            </div>
+          </div>
+
+          <div class="f-row">
+            <div class="f-field full">
+              <label data-i18n="f.notes">Special Requests</label>
+              <textarea name="notes" data-i18n-ph="f.notesPh" placeholder="High chair needed, cake cutting, seating preference…"></textarea>
+            </div>
+          </div>
+
+          <button type="submit" class="btn btn-gold res-submit" data-mag id="resSubmit">
+            <span data-i18n="cta.confirm">Confirm Reservation</span>
+          </button>
+          <div class="res-alt">
+            <span data-i18n="res.orCall">or call us directly at</span>
+            <a href="tel:7804077713"> 78040 77713</a>
+          </div>
+        </form>
+
+        <div class="res-success" id="resSuccess">
+          <div class="tick">✓</div>
+          <h3 data-i18n="res.thanks">Table request received!</h3>
+          <p data-i18n="res.thanksSub">We've saved your request. Our team will confirm shortly on WhatsApp.</p>
+          <div class="ref" id="resRef">HOSJ-000000</div>
+          <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
+            <a href="#" class="btn btn-wa btn-sm" id="resWa" data-mag><span data-i18n="cta.sendWa">Send on WhatsApp</span></a>
+            <button class="btn btn-ghost btn-sm" id="resAgain" data-mag><span data-i18n="cta.another">Book Another</span></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ VISIT / MAP ============ -->
+<section class="map-sec sec-pad" id="visit" style="padding-bottom:0">
+  <div class="wrap">
+    <div class="eyebrow reveal" data-i18n="visit.eyebrow">Find Us</div>
+    <h2 class="sec-title reveal" style="margin-top:18px">
+      <span class="mask-line"><span data-i18n="visit.h1">Come sit with us</span></span>
+      <span class="mask-line"><span><em data-i18n="visit.h2">in Yadav Colony.</em></span></span>
+    </h2>
+
+    <div class="map-frame reveal">
+      <iframe
+        title="House Of Sharma Ji location map"
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        src="https://www.google.com/maps?q=House+Of+Sharma+Ji,+MR-4+Rd,+Labour+Chowk,+Yadav+Colony,+Jabalpur,+Madhya+Pradesh+482002&output=embed">
+      </iframe>
+      <div class="map-card">
+        <h5>House Of Sharma Ji</h5>
+        <p>Near MR-4 Rd, Labour Chowk, Yadav Colony, Jabalpur, New Adaresh Colony, MP 482002</p>
+        <div class="plus">5W95+4W JABALPUR</div>
+        <a href="https://www.google.com/maps/dir/?api=1&destination=House+Of+Sharma+Ji+MR-4+Rd+Labour+Chowk+Yadav+Colony+Jabalpur"
+           target="_blank" rel="noopener" class="btn btn-gold btn-sm" data-mag>
+          <span data-i18n="cta.directions">Get Directions</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <div class="brand">
+          <div class="brand-mark">S</div>
+          <div class="brand-txt">
+            <b>House Of Sharma Ji</b>
+            <small>हाउस ऑफ शर्मा</small>
+          </div>
+        </div>
+        <p data-i18n="foot.about">
+          A family-friendly Indian restaurant in Jabalpur serving slow-cooked classics, tandoor breads, momos and cold coffee — with a 5.0 rating from our guests.
+        </p>
+        <div class="foot-social">
+          <a href="https://wa.me/917804077713" target="_blank" rel="noopener" aria-label="WhatsApp" data-mag>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.1-1.7-.8-1.9-.9-.3-.1-.5-.1-.7.1-.2.3-.7.9-.9 1.1-.2.2-.3.2-.6.1-.3-.1-1.2-.5-2.3-1.4-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6.1-.1.3-.4.5-.6.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5 0-.1-.7-1.6-.9-2.2-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.4s1.1 2.8 1.2 3c.1.2 2.1 3.2 5.1 4.5.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.7-.7 2-1.4.2-.7.2-1.2.2-1.4-.1-.1-.3-.2-.6-.3M12 2A10 10 0 0 0 3.5 17.2L2 22l4.9-1.5A10 10 0 1 0 12 2m0 18.2c-1.6 0-3.1-.4-4.4-1.2l-.3-.2-3 .9.9-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2"/></svg>
+          </a>
+          <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Instagram" data-mag>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1.1" fill="currentColor" stroke="none"/></svg>
+          </a>
+          <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Facebook" data-mag>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M13.5 21v-8h2.7l.4-3.1h-3.1V7.9c0-.9.25-1.5 1.55-1.5H16.7V3.6c-.3-.04-1.3-.13-2.45-.13-2.42 0-4.08 1.48-4.08 4.2v2.23H7.5V13h2.67v8h3.33z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="foot-col">
+        <h6 data-i18n="foot.explore">Explore</h6>
+        <a href="#story" data-i18n="nav.story">Our Story</a>
+        <a href="#signature" data-i18n="nav.signature">Signature</a>
+        <a href="#menu" data-i18n="nav.menu">Menu</a>
+        <a href="#gallery" data-i18n="nav.gallery">Gallery</a>
+        <a href="#reviews" data-i18n="nav.reviews">Reviews</a>
+      </div>
+
+      <div class="foot-col">
+        <h6 data-i18n="foot.contact">Contact</h6>
+        <a href="tel:7804077713">78040 77713</a>
+        <a href="tel:8964932788">89649 32788</a>
+        <a href="https://wa.me/917804077713" target="_blank" rel="noopener">WhatsApp</a>
+        <a href="#reserve" data-i18n="cta.reserve">Reserve a Table</a>
+      </div>
+
+      <div class="foot-col">
+        <h6 data-i18n="foot.hours">Opening Hours</h6>
+        <div class="foot-hours now"><span data-i18n="foot.today">Today</span><b id="todayHours">—</b></div>
+        <div class="foot-hours"><span data-i18n="foot.monfri">Mon – Fri</span><b>11:00 – 23:00</b></div>
+        <div class="foot-hours"><span data-i18n="foot.sat">Saturday</span><b>11:00 – 23:00</b></div>
+        <div class="foot-hours"><span data-i18n="foot.sun">Sunday</span><b>11:00 – 23:00</b></div>
+        <p style="margin-top:14px;font-size:.76rem;color:var(--faint);line-height:1.6" data-i18n="foot.addr">
+          Near MR-4 Rd, Labour Chowk, Yadav Colony, Jabalpur, MP 482002
+        </p>
+      </div>
+    </div>
+
+    <div class="foot-bottom">
+      <span>© <span id="year"></span> House Of Sharma Ji · <span data-i18n="foot.rights">All rights reserved.</span></span>
+      <button class="admin-link" id="openAdmin">
+        <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+        <span data-i18n="foot.admin">Admin</span>
+      </button>
+    </div>
+  </div>
+</footer>
+
+<!-- ============ WHATSAPP FLOAT ============ -->
+<a href="https://wa.me/917804077713?text=Hello%20House%20Of%20Sharma%20Ji%2C%20I%27d%20like%20to%20know%20more."
+   target="_blank" rel="noopener" class="wa-float" id="waFloat" aria-label="Chat on WhatsApp">
+  <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.1-1.7-.8-1.9-.9-.3-.1-.5-.1-.7.1-.2.3-.7.9-.9 1.1-.2.2-.3.2-.6.1-.3-.1-1.2-.5-2.3-1.4-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6.1-.1.3-.4.5-.6.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5 0-.1-.7-1.6-.9-2.2-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.4s1.1 2.8 1.2 3c.1.2 2.1 3.2 5.1 4.5.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.7-.7 2-1.4.2-.7.2-1.2.2-1.4-.1-.1-.3-.2-.6-.3M12 2A10 10 0 0 0 3.5 17.2L2 22l4.9-1.5A10 10 0 1 0 12 2m0 18.2c-1.6 0-3.1-.4-4.4-1.2l-.3-.2-3 .9.9-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2"/></svg>
+  <span data-i18n="cta.chat">Chat with us</span>
+</a>
+
+<!-- ============ LIGHTBOX ============ -->
+<div class="lb" id="lb">
+  <button class="lb-x" id="lbX" aria-label="Close">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M18 6 6 18M6 6l12 12"/></svg>
+  </button>
+  <div class="lb-img" id="lbImg"></div>
+  <div class="lb-nav">
+    <button id="lbPrev" aria-label="Previous"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M15 18l-6-6 6-6"/></svg></button>
+    <button id="lbNext" aria-label="Next"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M9 6l6 6-6 6"/></svg></button>
+  </div>
+</div>
+
+<!-- ============ ADMIN ============ -->
+<div class="adm" id="adm">
+  <!-- LOGIN -->
+  <div class="adm-login" id="admLogin">
+    <div class="adm-box">
+      <div class="lock">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+      </div>
+      <h3>Admin Access</h3>
+      <p>Restricted area. Enter the management password to continue.</p>
+      <div class="adm-msg" id="admMsg"></div>
+      <form id="admForm">
+        <div class="f-field" style="margin-bottom:14px">
+          <label>Password</label>
+          <input type="password" id="admPass" autocomplete="current-password" placeholder="••••••••">
+        </div>
+        <button type="submit" class="btn btn-gold" style="width:100%;padding:15px" id="admBtn">
+          <span>Unlock Dashboard</span>
+        </button>
+      </form>
+      <div class="adm-hint">
+        Demo password: <code>sharma9300</code><br>
+        <span style="opacity:.7">Client-side demo lock. In production this is replaced by server-side authentication with hashed credentials and session tokens.</span>
+      </div>
+      <button class="mini" style="margin-top:18px;width:100%" id="admClose">← Back to website</button>
+    </div>
+  </div>
+
+  <!-- SHELL -->
+  <div class="adm-shell" id="admShell">
+    <aside class="adm-side" id="admSide">
+      <div class="a-brand">
+        <div class="brand-mark" style="width:34px;height:34px;font-size:1.05rem;border-radius:10px">S</div>
+        <div>
+          <b>Sharma Admin</b>
+          <small>Control Panel</small>
+        </div>
+      </div>
+      <button class="a-link on" data-view="dash">📊 Dashboard</button>
+      <button class="a-link" data-view="enq">📩 Enquiries <span class="badge" id="badgeEnq">0</span></button>
+      <button class="a-link" data-view="menu">🍽️ Menu Manager</button>
+      <button class="a-link" data-view="content">✏️ Website Content</button>
+      <button class="a-link" data-view="settings">⚙️ Settings</button>
+      <button class="a-link" data-view="security">🔒 Security</button>
+      <div class="a-spacer"></div>
+      <button class="a-logout" id="admLogout">↩ Logout</button>
+    </aside>
+
+    <main class="adm-main" id="admMain"></main>
+  </div>
+</div>
+
+<div class="toasts" id="toasts"></div>
+
+<!-- ============ SCRIPTS ============ -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+<script type="module" src="/src/app.js"></script>
+</body>
+</html>

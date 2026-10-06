@@ -1,0 +1,6 @@
+{
+  "name": "House Of Sharma Ji",
+  "description": "House Of Sharma Ji — a premium family-friendly Indian restaurant in Jabalpur. Momos, tandoor, curries, cold coffee & warm ambience.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
